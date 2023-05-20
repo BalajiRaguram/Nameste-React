@@ -1,3 +1,75 @@
 #header {
-color: red;
-} 
+  color: red;
+}
+
+.nav-container {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  width: 100px;
+}
+
+.header {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.res-card {
+  padding: 10px;
+  width: 150px;
+  height: 350px;
+  margin: 5px;
+  border: 1px solid rgb(208, 30, 30);
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 2px solid rgb(124, 78, 78);
+}
+.search {
+  padding: 20px;
+}
+
+.res-logo {
+  width: 140px;
+  margin: 5px;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+}
+
+.filer-btn {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.body-panel {
+  display: flex;
+  border: 1px solid black;
+  margin: 15px;
+}
+
+.filer-btn {
+  margin: 20px;
+}
+
+.reset {
+  margin: 20px;
+}
